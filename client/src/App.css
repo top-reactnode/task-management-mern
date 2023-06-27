@@ -1,0 +1,20 @@
+.task.card {
+    width: 25rem;
+  }
+  
+  @media (max-width: 740px) {
+    .task-main.card .card-body {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .task-main.card .card-body .w-3\/4 {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .new-task-page .btn-primary {
+      width: 100%;
+    }
+  }
+  

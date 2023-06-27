@@ -1,0 +1,23 @@
+.entry .card {
+  width: 75vw;
+  max-width: 25rem;
+}
+.entry .card-body {
+  padding: 2rem;
+}
+.entry .err-msg {
+  position: relative;
+  top: -0.5rem;
+}
+
+@media (max-width: 580px) {
+  .entry .card div {
+    width: 100%;
+  }
+  .header_btn-grp {
+    gap: 0;
+  }
+  .header_btn-grp button {
+    padding: 0.9rem 0.5rem;
+  }
+}

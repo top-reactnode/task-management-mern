@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const RefreshTokens = require("../models/refresh");
-const Users = require("../models/users");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
+const RefreshTokens = require("../models/refresh");
+const Users = require("../models/users");
 const { generateAccessToken } = require("../utils");
 
 // register new user

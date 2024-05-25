@@ -20,7 +20,7 @@ const tasksSchema = new mongoose.Schema({
   created_by: {
     type: String,
     required: true,
-  },
+  }
 });
 
 module.exports = mongoose.model("Tasks", tasksSchema);
